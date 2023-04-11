@@ -1,0 +1,123 @@
+{
+  "jobs": [
+    {
+      "jobId": "G001",
+      "companyLogo": "https://cdn.pixabay.com/photo/2015/09/02/12/45/google-918983_1280.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "Google",
+      "jobType": "onsite",
+      "location": "Mountain View, CA",
+      "jobType2": "full-time",
+      "salary": "Competitive",
+      "jobDescription": "We are looking for a talented software engineer to join our team and help us build the next generation of Google products.",
+      "jobResponsibilities": "- Develop and maintain software applications for Google products.\n- Write clean, maintainable, and efficient code.\n- Collaborate with cross-functional teams to define, design, and ship new features.\n- Troubleshoot and debug issues as they arise.\n- Participate in code and design reviews.",
+      "educationalRequirements": "Bachelor's or Master's degree in Computer Science or a related field",
+      "experiences": "3+ years of experience in software engineering",
+      "contactEmail": "jobs@google.com",
+      "phone": "+1-650-253-0000"
+    },
+    {
+      "jobId": "T001",
+      "companyLogo": "https://cdn.pixabay.com/photo/2018/03/08/18/22/tesla-3205458_1280.png",
+      "jobTitle": "Mechanical Engineer",
+      "companyName": "Tesla",
+      "jobType": "remote",
+      "location": "Anywhere",
+      "jobType2": "full-time",
+      "salary": "Competitive",
+      "jobDescription": "We are seeking a skilled mechanical engineer to help us design and develop the next generation of Tesla products.",
+      "jobResponsibilities": "- Collaborate with a cross-functional team to design, develop, and test mechanical components and systems for Tesla products.\n- Create and maintain detailed engineering documentation.\n- Analyze and solve complex engineering problems.\n- Develop and execute test plans to validate designs.\n- Participate in design and code reviews.",
+      "educationalRequirements": "Bachelor's or Master's degree in Mechanical Engineering or a related field",
+      "experiences": "3+ years of experience in mechanical engineering",
+      "contactEmail": "jobs@tesla.com",
+      "phone": "+1-650-681-5100"
+    },
+    {
+      "jobId": "N001",
+      "companyLogo": "https://cdn.freebiesupply.com/logos/large/2x/netflix-logo-png-transparent.png",
+      "jobTitle": "Senior Frontend Engineer",
+      "companyName": "Netflix",
+      "jobType": "Remote",
+      "location": "San Francisco Bay Area",
+      "jobType2": "Full-time",
+      "salary": "$150,000 - $200,000",
+      "jobDescription": "We are looking for a Senior Frontend Engineer to join our team and help build the next generation of Netflix's streaming experience.",
+      "jobResponsibilities": [
+        "Design and implement scalable and performant frontend applications",
+        "Collaborate with cross-functional teams to define and deliver new features",
+        "Optimize user experience by improving page load times and reducing latency",
+        "Identify and resolve technical issues in a timely manner"
+      ],
+      "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+      "experiences": "5+ years of experience in frontend development",
+      "contactEmail": "jobs@netflix.com",
+      "phone": "+1 (408) 555-1234"
+    },
+    {
+      "jobId": "JD12345",
+      "companyLogo": "https://example.com/logo.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "Microsoft",
+      "jobType": "onsite",
+      "location": "Redmond, WA",
+      "jobType2": "full-time",
+      "salary": "$120,000 - $150,000",
+      "jobDescription": "We are seeking a talented software engineer to join our team and help us build the next generation of Microsoft products. The ideal candidate will have a passion for software development and a desire to work on cutting-edge technology.",
+      "jobResponsibilities": [
+        "Design and develop high-quality software",
+        "Collaborate with other engineers and stakeholders to define requirements and solve problems",
+        "Write clean, maintainable code that is easy to understand and modify",
+        "Participate in code reviews and provide feedback to other engineers",
+        "Stay up-to-date with emerging trends and technologies in software development"
+      ],
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "5+ years of professional software development experience",
+      "contactEmail": "jobs@microsoft.com",
+      "phone": "(425) 555-1234"
+    },
+    {
+      "jobId": "JD67890",
+      "companyLogo": "https://example.com/logo.png",
+      "jobTitle": "Product Manager",
+      "companyName": "Microsoft",
+      "jobType": "remote",
+      "location": "N/A",
+      "jobType2": "full-time",
+      "salary": "$130,000 - $160,000",
+      "jobDescription": "We are seeking a Product Manager to help us build innovative products that delight our customers. The ideal candidate will have a deep understanding of user needs and a passion for creating great products.",
+      "jobResponsibilities": [
+        "Define product strategy and roadmap",
+        "Work with cross-functional teams to develop and launch products",
+        "Gather and analyze feedback from customers and stakeholders",
+        "Track and report on product performance",
+        "Stay up-to-date with emerging trends and technologies in product management"
+      ],
+      "educationalRequirements": "Bachelor's degree in Business, Computer Science or related field",
+      "experiences": "7+ years of experience in product management",
+      "contactEmail": "jobs@microsoft.com",
+      "phone": "(425) 555-1234"
+    },
+    {
+      "jobId": "JD97531",
+      "companyLogo": "https://example.com/logo.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "Tesla",
+      "jobType": "remote",
+      "location": "N/A",
+      "jobType2": "full-time",
+      "salary": "$120,000 - $150,000",
+      "jobDescription": "We are looking for a talented software engineer to join our team and help us develop software for our vehicles and energy products. The ideal candidate will have experience in software development, as well as a passion for clean energy and sustainability.",
+      "jobResponsibilities": [
+        "Develop software for Tesla's products and services",
+        "Collaborate with cross-functional teams to define and solve business problems",
+        "Write clean, maintainable code that is scalable and efficient",
+        "Contribute to the design and architecture of software systems",
+        "Stay up-to-date with emerging trends and technologies in software development"
+      ],
+      "educationalRequirements": "Bachelor's degree in Computer Science, Electrical Engineering, or related field",
+      "experiences": "3+ years of professional software development experience",
+      "contactEmail": "jobs@tesla.com",
+      "phone": "(650) 555-1234"
+    }
+    ]
+}
