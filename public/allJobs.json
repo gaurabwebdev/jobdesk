@@ -2,7 +2,7 @@
   "jobs": [
     {
       "jobId": "G001",
-      "companyLogo": "https://cdn.pixabay.com/photo/2015/09/02/12/45/google-918983_1280.png",
+      "companyLogo": "https://i.ibb.co/94J8Vmc/google-1-1-1.png",
       "jobTitle": "Software Engineer",
       "companyName": "Google",
       "jobType": "onsite",
@@ -18,7 +18,7 @@
     },
     {
       "jobId": "T001",
-      "companyLogo": "https://cdn.pixabay.com/photo/2018/03/08/18/22/tesla-3205458_1280.png",
+      "companyLogo": "https://i.ibb.co/FV7wJPY/netflix-4-1.png",
       "jobTitle": "Mechanical Engineer",
       "companyName": "Tesla",
       "jobType": "remote",
@@ -34,7 +34,7 @@
     },
     {
       "jobId": "N001",
-      "companyLogo": "https://cdn.freebiesupply.com/logos/large/2x/netflix-logo-png-transparent.png",
+      "companyLogo": "https://i.ibb.co/FV7wJPY/netflix-4-1.png",
       "jobTitle": "Senior Frontend Engineer",
       "companyName": "Netflix",
       "jobType": "Remote",
@@ -55,7 +55,7 @@
     },
     {
       "jobId": "JD12345",
-      "companyLogo": "https://example.com/logo.png",
+      "companyLogo": "https://p7.hiclipart.com/preview/370/846/391/logo-microsoft-corporation-portable-network-graphics-computer-icons-image-composite-editor-microsoft-logo.jpg",
       "jobTitle": "Software Engineer",
       "companyName": "Microsoft",
       "jobType": "onsite",
@@ -77,7 +77,7 @@
     },
     {
       "jobId": "JD67890",
-      "companyLogo": "https://example.com/logo.png",
+      "companyLogo": "https://p7.hiclipart.com/preview/370/846/391/logo-microsoft-corporation-portable-network-graphics-computer-icons-image-composite-editor-microsoft-logo.jpg",
       "jobTitle": "Product Manager",
       "companyName": "Microsoft",
       "jobType": "remote",
@@ -99,7 +99,7 @@
     },
     {
       "jobId": "JD97531",
-      "companyLogo": "https://example.com/logo.png",
+      "companyLogo": "https://i.ibb.co/qMkjmkz/tesla-9-1.png",
       "jobTitle": "Software Engineer",
       "companyName": "Tesla",
       "jobType": "remote",
