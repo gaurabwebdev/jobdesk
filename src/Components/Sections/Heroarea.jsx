@@ -7,8 +7,8 @@ const Heroarea = () => {
       <div className="flex flex-col gap-5 w-full lg:w-50">
         <h1 className="text-5xl font-semibold tracking-wide leading-snug">
           One Step Closer To Your
-          <br></br>
-          <span className="active">Dream Job</span>
+          <br />
+          <span className="active ">Dream Job</span>
         </h1>
         <p className="text-xl text-gray-500 tracking-wide leading-snug">
           Explore thousands of job opportunities with all the information you
