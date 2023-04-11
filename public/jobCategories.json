@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "categoryTitle": "Accounting & Finance",
+      "categoryLogo": "https://gaurab968.imgbb.com/?list=images&sort=date_desc&page=1",
+      "availableJobs": 300
+    },
+    {
+      "categoryTitle": "Creative Design",
+      "categoryLogo": "https://gaurab968.imgbb.com/?list=images&sort=date_desc&page=1",
+      "availableJobs": 100
+    },
+    {
+      "categoryTitle": "Marketing & Sales",
+      "categoryLogo": "https://gaurab968.imgbb.com/?list=images&sort=date_desc&page=1",
+      "availableJobs": 150
+    },
+    {
+      "categoryTitle": "Engineering Job",
+      "categoryLogo": "https://gaurab968.imgbb.com/?list=images&sort=date_desc&page=1",
+      "availableJobs": 224
+    }
+  ]
+}
