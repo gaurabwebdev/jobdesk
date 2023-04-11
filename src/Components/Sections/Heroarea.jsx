@@ -16,7 +16,7 @@ const Heroarea = () => {
           from start to finish.
         </p>
         <button className="my-btn">
-          <Link to={"/jobs"}>Get Started</Link>
+          <Link>Get Started</Link>
         </button>
       </div>
       <div className="w-full lg:w-50">
