@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Heroarea = () => {
   return (
@@ -14,11 +15,12 @@ const Heroarea = () => {
           need. Its your future. Come find it. Manage all your job application
           from start to finish.
         </p>
-        <button className="my-btn">Get Started</button>
+        <button className="my-btn">
+          <Link to={"/jobs"}>Get Started</Link>
+        </button>
       </div>
-      <div>
+      <div className="w-full lg:w-50">
         <img
-          className="w-full lg:w-50"
           src="https://i.ibb.co/GRv4BHz/P3-OLGJ1-copy-1.png"
           alt="hero-image"
         />

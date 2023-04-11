@@ -7,6 +7,8 @@ import Home from "./Components/Home";
 import Statistics from "./Components/Statistics";
 import Applied from "./Components/Applied";
 import Blog from "./Components/Blog";
+import Jobs from "./Components/Jobs";
+import { loadedCategories } from "./Loaders/categories";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,6 +17,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+        loader: loadedCategories,
+      },
+      {
+        path: "/jobs",
+        element: <Jobs />,
       },
       {
         path: "/statistics",

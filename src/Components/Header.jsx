@@ -38,7 +38,9 @@ const Header = () => {
         </NavLink>
       </nav>
 
-      <button className="my-btn">Start Applying</button>
+      <button className="my-btn">
+        <Link to={"/jobs"}>Start Applying</Link>
+      </button>
     </header>
   );
 };
