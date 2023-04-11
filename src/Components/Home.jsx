@@ -1,6 +1,6 @@
 import React from "react";
 import Heroarea from "./Sections/Heroarea";
-import FetauredJobs from "./Sections/FetauredJobs";
+import CategoryJobs from "./Sections/CategoryJobs";
 import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <Heroarea></Heroarea>
-      <FetauredJobs categories={categories}></FetauredJobs>
+      <CategoryJobs categories={categories}></CategoryJobs>
     </div>
   );
 };
