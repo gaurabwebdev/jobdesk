@@ -11,7 +11,6 @@ import Jobs from "./Components/FeaturedJobs";
 import { loadedCategories } from "./Loaders/categories";
 import { loadedJobs } from "./Loaders/jobLoader";
 import SingleJob from "./Components/SingleJob";
-import { jobDetails } from "./Loaders/singlejobLoader";
 const router = createBrowserRouter([
   {
     path: "/",
