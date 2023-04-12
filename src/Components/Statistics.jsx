@@ -57,7 +57,7 @@ const Statistics = () => {
       <div>
         <p className="text-2xl font-semibold text-center my-5">
           Presenting you the marks I got till now in Programming Hero's
-          Assignments
+          Assignments by Area Chart
         </p>
       </div>
       <AreaChart
