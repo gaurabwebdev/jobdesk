@@ -17,4 +17,14 @@ const addJobToLS = (id) => {
   console.log(id);
 };
 
-export { addJobToLS };
+const getSavedJobs = () => {
+  let savedJobs = {};
+  const jobs = localStorage.getItem("applied-jobs");
+  if (savedJobs) {
+    savedJobs = JSON.parse(jobs);
+  }
+
+  return savedJobs;
+};
+
+export { addJobToLS, getSavedJobs };

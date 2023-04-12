@@ -15,8 +15,10 @@ const SingleJob = () => {
   const { jobId } = useParams();
   const [currentJob, setCurrentJob] = useState([]);
   useEffect(() => {
-    const foundJob = allJobs.find((job) => job.jobId === jobId);
-    setCurrentJob(foundJob);
+    if (jobId && allJobs) {
+      const foundJob = allJobs.find((job) => job.jobId === jobId);
+      setCurrentJob(foundJob);
+    }
   }, [allJobs, jobId]);
   console.log(allJobs, jobId, currentJob);
   const {
