@@ -11,11 +11,13 @@ import Jobs from "./Components/FeaturedJobs";
 import { loadedCategories } from "./Loaders/categories";
 import { loadedJobs } from "./Loaders/jobLoader";
 import SingleJob from "./Components/SingleJob";
+import ErrorPage from "./Components/ErrorPage";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     loader: loadedJobs,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
