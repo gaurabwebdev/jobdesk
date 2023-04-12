@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { FeaturedJobContext, JobContext } from "../App";
 import JobCard from "./JobCard";
+import { useState } from "react";
 
 const FeaturedJobs = () => {
   const allJobs = useContext(JobContext);
@@ -22,11 +23,15 @@ const FeaturedJobs = () => {
           ))}
         </div>
       </div>
-      <div className="my-continer flex justify-center mb-5">
-        <button onClick={showAll} className="my-btn">
-          See All Jobs
-        </button>
-      </div>
+      {featuredJobs.length <= 4 ? (
+        <div className="my-continer flex justify-center mb-5">
+          <button onClick={showAll} className="my-btn">
+            See All Jobs
+          </button>
+        </div>
+      ) : (
+        ""
+      )}
     </>
   );
 };
