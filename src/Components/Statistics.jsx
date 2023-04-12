@@ -1,69 +1,95 @@
 import React from "react";
 import {
-  Radar,
-  RadarChart,
-  PolarGrid,
-  PolarAngleAxis,
-  PolarRadiusAxis,
+  AreaChart,
+  Area,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
   ResponsiveContainer,
 } from "recharts";
 
-const data = [
-  {
-    subject: "Math",
-    A: 120,
-    B: 110,
-    fullMark: 150,
-  },
-  {
-    subject: "Chinese",
-    A: 98,
-    B: 130,
-    fullMark: 150,
-  },
-  {
-    subject: "English",
-    A: 86,
-    B: 130,
-    fullMark: 150,
-  },
-  {
-    subject: "Geography",
-    A: 99,
-    B: 100,
-    fullMark: 150,
-  },
-  {
-    subject: "Physics",
-    A: 85,
-    B: 90,
-    fullMark: 150,
-  },
-  {
-    subject: "History",
-    A: 65,
-    B: 85,
-    fullMark: 150,
-  },
-];
-
 const Statistics = () => {
+  const data = [
+    {
+      name: "A - 1",
+      fullMarks: 60,
+      obtainedMarks: 60,
+    },
+    {
+      name: "A - 2",
+      fullMarks: 60,
+      obtainedMarks: 59,
+    },
+    {
+      name: "A - 3",
+      fullMarks: 60,
+      obtainedMarks: 60,
+    },
+    {
+      name: "A - 4",
+      fullMarks: 60,
+      obtainedMarks: 60,
+    },
+    {
+      name: "A - 5",
+      fullMarks: 60,
+      obtainedMarks: 60,
+    },
+    {
+      name: "A - 6",
+      fullMarks: 60,
+      obtainedMarks: 60,
+    },
+    {
+      name: "A - 7",
+      fullMarks: 60,
+      obtainedMarks: 60,
+    },
+    {
+      name: "A - 8",
+      fullMarks: 60,
+      obtainedMarks: 60,
+    },
+  ];
   return (
-    <div>
-      <ResponsiveContainer width="100%" height="100%">
-        <RadarChart cx="50%" cy="50%" outerRadius="80%" data={data}>
-          <PolarGrid />
-          <PolarAngleAxis dataKey="subject" />
-          <PolarRadiusAxis />
-          <Radar
-            name="Mike"
-            dataKey="A"
-            stroke="#8884d8"
-            fill="#8884d8"
-            fillOpacity={0.6}
-          />
-        </RadarChart>
-      </ResponsiveContainer>
+    <div className="my-container flex flex-col justify-center items-center">
+      <div>
+        <p className="text-2xl font-semibold text-center my-5">
+          Presenting you the marks I got till now in Programming Hero's
+          Assignments
+        </p>
+      </div>
+      <AreaChart
+        width={500}
+        height={400}
+        data={data}
+        margin={{
+          top: 10,
+          right: 30,
+          left: 0,
+          bottom: 0,
+        }}
+      >
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
+        <Area
+          type="monotone"
+          dataKey="fullMarks"
+          stackId="1"
+          stroke="#8884d8"
+          fill="#8884d8"
+        />
+        <Area
+          type="monotone"
+          dataKey="obtainedMarks"
+          stackId="1"
+          stroke="#82ca9d"
+          fill="#82ca9d"
+        />
+      </AreaChart>
     </div>
   );
 };
