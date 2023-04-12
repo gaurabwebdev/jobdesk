@@ -5,8 +5,8 @@ import JobCard2 from "./JobCard2";
 
 const Applied = () => {
   const allJobs = useContext(JobContext);
-
-  let [appliedJobArray, setAppliedJobArray] = useState([]);
+  const [appliedJobArrayFirst, setAppliedJobArrayFirst] = useState([]);
+  const [appliedJobArraySecond, setAppliedJobArraySecond] = useState([]);
   useEffect(
     () => {
       const newJobArray = [];
@@ -19,22 +19,23 @@ const Applied = () => {
           }
         }
       }
-      setAppliedJobArray(newJobArray);
+      setAppliedJobArrayFirst(newJobArray);
+      setAppliedJobArraySecond(newJobArray);
     },
     allJobs,
-    appliedJobArray
+    appliedJobArraySecond
   );
   const handleChange = (e) => {
     const userSelection = e.target.value;
 
-    if (appliedJobArray && userSelection !== "Filter By") {
-      const newJobArray = appliedJobArray.filter(
+    if (setAppliedJobArrayFirst && userSelection !== "Filter By") {
+      const newJobArray = appliedJobArrayFirst.filter(
         (job) => job.jobType === userSelection
       );
-      setAppliedJobArray(newJobArray);
+      setAppliedJobArraySecond(newJobArray);
     }
   };
-  console.log(appliedJobArray);
+  console.log(appliedJobArraySecond);
   return (
     <div className="my-container">
       <p className="text-4xl font-semibold text-center">Applied Jobs</p>
@@ -52,13 +53,15 @@ const Applied = () => {
       </div>
       <div>
         <div className="p-3 gap-2 my-5">
-          {appliedJobArray
-            ? appliedJobArray.map((job) => (
+          {appliedJobArraySecond
+            ? appliedJobArraySecond.map((job) => (
                 <JobCard2 key={job.jobId} job={job}></JobCard2>
               ))
             : ""}
         </div>
       </div>
+
+      {appliedJobArrayFirst.length === 0 ? <p>You haven't applied yet</p> : ""}
     </div>
   );
 };
