@@ -61,7 +61,13 @@ const Applied = () => {
         </div>
       </div>
 
-      {appliedJobArrayFirst.length === 0 ? <p>You haven't applied yet</p> : ""}
+      {appliedJobArrayFirst.length === 0 ? (
+        <div className="h-72">
+          <p>You haven't applied yet</p>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };
