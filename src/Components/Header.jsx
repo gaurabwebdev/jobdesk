@@ -87,7 +87,7 @@ const Header = () => {
             </ul>
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="lg:hidden border p-2 rounded-md mt-6 mr-6"
+              className="lg:hidden border border-gray-300 p-2 rounded-md mt-6 mr-6"
             >
               <XCircleIcon className="w-6 h-6 text-purple-500" />
             </button>
