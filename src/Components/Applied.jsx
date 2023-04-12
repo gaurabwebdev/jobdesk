@@ -38,7 +38,7 @@ const Applied = () => {
   console.log(appliedJobArraySecond);
   return (
     <div className="my-container">
-      <p className="text-4xl font-semibold text-center">Applied Jobs</p>
+      <p className="text-4xl font-semibold text-center mb-5">Applied Jobs</p>
       <div className="bg-gray-200 p-3 rounded inline">
         <select
           onChange={handleChange}
