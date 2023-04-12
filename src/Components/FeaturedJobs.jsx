@@ -13,8 +13,8 @@ const FeaturedJobs = () => {
         need. Its your future
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 p-3 gap-2 my-5">
-        {featuredJobs.map((fjob) => (
-          <JobCard key={fjob.jobId} fjob={fjob}></JobCard>
+        {featuredJobs.map((job) => (
+          <JobCard status={true} key={job.jobId} job={job}></JobCard>
         ))}
       </div>
     </div>

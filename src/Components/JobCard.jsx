@@ -2,7 +2,7 @@ import React from "react";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 
-const JobCard = ({ fjob }) => {
+const JobCard = ({ job }) => {
   const {
     jobTitle,
     companyLogo,
@@ -12,7 +12,7 @@ const JobCard = ({ fjob }) => {
     jobType2,
     location,
     salary,
-  } = fjob;
+  } = job;
   return (
     <div className="py-5 px-4 border rounded flex flex-col items-center lg:items-start">
       <img className="w-44 mb-5" src={companyLogo} alt="company-logo" />
